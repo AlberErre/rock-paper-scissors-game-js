@@ -14,18 +14,18 @@ function play (selection) {
     console.log(randomNumber);
 
     if (selection == randomNumber) {
-        console.log ("Empate");
+        console.log (tied);
         player.innerHTML = options[selection];
         vs.innerHTML = 'vs';
         computer.innerHTML = options[randomNumber];
-        result.innerHTML = 'Empate!';
+        result.innerHTML = tied;
     }
     else if (selection == 0 && randomNumber == 1) {
-        console.log ("Perdiste");
+        console.log (lose);
         player.innerHTML = options[selection];
         vs.innerHTML = 'vs';
         computer.innerHTML = options[randomNumber];
-        result.innerHTML = 'Perdiste!';
+        result.innerHTML = lose;
     }
     else if (selection == 0 && randomNumber == 2) {
         console.log (win);
