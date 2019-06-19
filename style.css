@@ -82,7 +82,7 @@ button {
 		transform: translate3d(0,20px,0);
 	}
 }
-@-webkit-keyframes bounce {
+@keyframes bounce {
 	from,
 	20%,
 	53%,
