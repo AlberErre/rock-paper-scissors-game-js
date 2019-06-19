@@ -66,12 +66,12 @@ function play (selection) {
 
 var Rock = document.getElementById('Rock').addEventListener('click', function(){
     play(0);
-}) ;
+});
 
 var Paper = document.getElementById('Paper').addEventListener('click', function(){
     play(1);
-}) ;
+});
 
 var Scissors = document.getElementById('Scissors').addEventListener('click', function(){
     play(2);
-}) ;
+});
