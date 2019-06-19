@@ -66,12 +66,24 @@ function play (selection) {
 // Html Elements
 var Rock = document.getElementById('Rock').addEventListener('click', function(){
     play(0);
+    this.classList.add('bounceButton');
+    setTimeout(() => {
+        this.classList.remove('bounceButton');
+    }, 1000);
 });
 
 var Paper = document.getElementById('Paper').addEventListener('click', function(){
     play(1);
+    this.classList.add('bounceButton');
+    setTimeout(() => {
+        this.classList.remove('bounceButton');
+    }, 1000);
 });
 
 var Scissors = document.getElementById('Scissors').addEventListener('click', function(){
     play(2);
+    this.classList.add('bounceButton');
+    setTimeout(() => {
+        this.classList.remove('bounceButton');
+    }, 1000);
 });
