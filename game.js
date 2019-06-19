@@ -1,5 +1,5 @@
+//All Variables
 var options = ["Rock","Paper","Scissors"];
-
 var player = document.getElementById('player');
 var computer = document.getElementById('computer');
 var result = document.getElementById('result');
