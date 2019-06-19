@@ -71,7 +71,10 @@ button {
 	height: 21px;
 	font-family:'Courier New', Courier, monospace;
 	font-weight: bold;
-	animation: bounce .8s infinite ease-in-out alternate;
+}
+
+.bounceButton {
+	animation: bounce .8s ease-in-out alternate;
 }
 
 @keyframes hover-logo{
