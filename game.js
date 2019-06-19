@@ -1,4 +1,4 @@
-//All Variables
+// All Variables
 var options = ["Rock","Paper","Scissors"];
 var player = document.getElementById('player');
 var computer = document.getElementById('computer');
@@ -63,7 +63,7 @@ function play (selection) {
         result.innerHTML = lose;
     }
 }
-
+// Html Elements
 var Rock = document.getElementById('Rock').addEventListener('click', function(){
     play(0);
 });
