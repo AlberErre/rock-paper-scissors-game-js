@@ -1,3 +1,50 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
 body {
-  background: #eee;
+	background-image: url("assets/Pedrapapaeltijera.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 75vh;
+}
+
+h1, h2 {
+	margin:auto;
+	width:650px;
+	font-family:'Courier New', Courier, monospace;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+h3, h5 {
+	margin:auto;
+	width:650px;
+	font-family:'Courier New', Courier, monospace;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.button-box {
+	margin: auto;
+	font-family:'Courier New', Courier, monospace;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 400px;
+	position: absolute;
+	bottom: 75px;
+	right: 0;
+	left: 0;
+}
+
+button {
+	width: 100px;
+	height: 21px;
 }
